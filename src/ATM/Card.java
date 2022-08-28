@@ -2,7 +2,7 @@ package ATM;
 
 public class Card {
 
-        static int balance = 1000;
+        static int balance = 10000000;
         public Card(int n) {
             balance = n;
         }
@@ -12,7 +12,7 @@ public class Card {
             System.out.println("Максимальная сумма снятия составляет " + max + " рублей.");
         }
         public static void minimum_amount(){
-            int min = 10;
+            int min = 100;
             System.out.println("Минимальная сумма снятия составляет " + min + " рублей.");
         }
     }
