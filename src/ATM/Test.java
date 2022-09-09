@@ -19,7 +19,7 @@ public class Test {
                 int count = scanner.nextInt();
                 switch (count) {
                     case 1:
-                        System.out.println("Ваш баланс составляет " + balance + " рублей");
+                        System.out.println("Ваш баланс составляет " + balance + " рубля");
                         ATMMachine.return_to_the_main_menu();
                         break;
                     case 2:

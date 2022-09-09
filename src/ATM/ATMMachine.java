@@ -7,7 +7,7 @@ import static ATM.Card.balance;
 public class ATMMachine extends CatchingAnException {
     public static int number;
     static Scanner scanner = new Scanner(System.in);
-    static int banknotes = 10;
+    static int banknotes = 20;
     static int availability_of_banknotes = 100000;
     static int banknotes1 = 50;
     static int availability_of_banknotes1 = 100;

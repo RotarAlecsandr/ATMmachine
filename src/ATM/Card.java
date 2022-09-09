@@ -12,7 +12,7 @@ public class Card {
             System.out.println("Максимальная сумма снятия составляет " + max + " рублей.");
         }
         public static void minimum_amount(){
-            int min = 100;
+            int min = 1000;
             System.out.println("Минимальная сумма снятия составляет " + min + " рублей.");
         }
     }

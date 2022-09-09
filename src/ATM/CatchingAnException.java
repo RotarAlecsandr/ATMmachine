@@ -7,8 +7,8 @@ public class CatchingAnException extends Exception {
             if (ATMMachine.banknotes != ATMMachine.number && ATMMachine.banknotes1 != ATMMachine.number && ATMMachine.banknotes2 != ATMMachine.number){
                 throw new ArithmeticException("К сожалению отсутсвуют нужные купюры.");
             }
-        } catch (ArithmeticException e) {
-            e.printStackTrace();
+        } catch (ArithmeticException a) {
+            a.printStackTrace();
         }
     }
     public static void catchingAnExceptionBalance(){
