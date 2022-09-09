@@ -2,7 +2,7 @@ package ATM;
 
 public class Card {
 
-        static int balance = 10000000;
+        static int balance = 50000000;
         public Card(int n) {
             balance = n;
         }

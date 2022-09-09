@@ -8,7 +8,7 @@ public class ATMMachine extends CatchingAnException {
     public static int number;
     static Scanner scanner = new Scanner(System.in);
     static int banknotes = 10;
-    static int availability_of_banknotes = 100;
+    static int availability_of_banknotes = 100000;
     static int banknotes1 = 50;
     static int availability_of_banknotes1 = 100;
     static int banknotes2 = 100;
